@@ -73,3 +73,36 @@ section.mainSec {
 .imgOfMe img {
   border-radius: 20px;
 }
+
+/* projects */
+
+.projects, .skills, .contact {
+  font-size: 1.15em;
+  padding: 1em 0;
+}
+
+.projects ul {
+  list-style: circle;
+  margin-left: 1em;
+  padding-top: 1em;
+}
+
+.projects li a {
+  font-size: 1.15em;
+  text-decoration: underline;
+}
+
+/* skills */
+
+.skills ul {
+  display: flex;
+}
+
+.skills li {
+  margin: 1em;
+}
+
+.skills li a i {
+  font-size: 2.5em;
+}
+
