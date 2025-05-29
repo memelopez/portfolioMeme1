@@ -1,0 +1,75 @@
+/* cristiano portfolio */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* common tags */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  width: 69%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+header {
+  width: 70%;
+  margin:  0 auto;
+  padding: 1em 0.65em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.47em;
+}
+
+header a {
+  padding: 0.475em;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+/* main sec */
+
+section.mainSec {
+  display: flex;
+}
+
+.txtInfo {
+  width: 75%;
+}
+
+.txtInfo h2 {
+  padding-top: 2em;
+}
+
+.imgOfMe {
+  padding: 1em 0.5em;
+}
+
+.txtAboutMe {
+  padding: 1em 1.5em 1em 0;
+}
+
+.txtAboutMe p {
+  font-size: 1.3em;
+  /* text-align: justify; */
+  margin-bottom: 0.45em;
+  margin-right: 0.55em;
+}
+
+.imgOfMe img {
+  border-radius: 20px;
+}
