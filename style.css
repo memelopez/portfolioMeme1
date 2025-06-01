@@ -88,7 +88,7 @@ section.mainSec {
 }
 
 .projects li a {
-  font-size: 1.15em;
+  font-size: 1.05em;
   text-decoration: underline;
 }
 
@@ -96,13 +96,33 @@ section.mainSec {
 
 .skills ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .skills li {
-  margin: 1em;
+  margin: 1em 1.5em 1em 0;
 }
 
 .skills li a i {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
+
+/* contact */ 
+
+section.contact {
+  font-size: 1.05e;
+}
+
+.contact h2 {
+  margin-bottom: 1em;
+}
+
+.contact ul {
+  margin: 0.75em 0;
+  display: flex;
+}
+
+.contact li {
+  padding: 1em 1em 1em 0;
+}
