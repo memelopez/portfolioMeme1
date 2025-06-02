@@ -37,7 +37,7 @@ header {
 
 header a {
   padding: 0.475em;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.25em;
 }
 
@@ -111,7 +111,7 @@ section.mainSec {
 /* contact */ 
 
 section.contact {
-  font-size: 1.05e;
+  font-size: 1.05em;
 }
 
 .contact h2 {
@@ -119,10 +119,33 @@ section.contact {
 }
 
 .contact ul {
-  margin: 0.75em 0;
+  margin-top: 0.75em;
   display: flex;
 }
 
 .contact li {
   padding: 1em 1em 1em 0;
+}
+
+.contact i {
+  font-size: 1.5em;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  margin: 0.35em 0 2.75em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+footer p strong {
+  font-size: 1.25em;
 }
