@@ -57,6 +57,14 @@ section.mainSec {
 
 .imgOfMe {
   padding: 1em 0.5em;
+  width: 34%;
+  height: 550px;
+  align-items: center;
+}
+
+.imgOfMe img {
+  width: 100%;
+  height: 100%;
 }
 
 .txtAboutMe {
