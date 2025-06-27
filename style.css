@@ -1,0 +1,244 @@
+/* cristiano portfolio */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* common tags */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  width: 69%;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+header {
+  width: 70%;
+  margin:  0 auto;
+  padding: 1em 0.65em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.47em;
+}
+
+header a {
+  padding: 0.475em;
+  font-weight: 500;
+  font-size: 1.25em;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* main sec */
+
+section.mainSec {
+  display: flex;
+}
+
+.txtInfo {
+  width: 75%;
+}
+
+.txtInfo h2 {
+  padding-top: 2em;
+}
+
+.imgOfMe {
+  padding: 1em 0.5em;
+  width: 40%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+
+.txtAboutMe {
+  padding: 1em 1.5em 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.txtAboutMe p {
+  font-size: 1.3em;
+  /* text-align: justify; */
+  margin-bottom: 0.45em;
+  margin-right: 0.55em;
+}
+
+.txtAboutMe strong {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  /* align-self:first baseline ; */
+}
+
+.imgOfMe img {
+  border-radius: 20px;
+}
+
+/* button of img */
+button {
+  border: none;
+  background-color: transparent;
+}
+
+/* projects */
+
+.projects, .skills, .contact {
+  font-size: 1.15em;
+  padding: 1em 0;
+}
+
+.projects ul {
+  list-style: circle;
+  margin-left: 1em;
+  padding-top: 1em;
+}
+
+.projects li a {
+  font-size: 1.05em;
+  text-decoration: underline;
+}
+
+/* skills */
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  margin: 1em 1.5em 1em 0;
+}
+
+.skills li a i {
+  font-size: 2em;
+}
+
+
+/* contact */ 
+
+section.contact {
+  font-size: 1.05em;
+}
+
+.contact h2 {
+  margin-bottom: 1em;
+}
+
+.contact ul {
+  margin-top: 0.75em;
+  display: flex;
+}
+
+.contact li {
+  padding: 1em 1em 1em 0;
+}
+
+.contact i {
+  font-size: 1.5em;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  margin: 0.35em 0 2.75em 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+footer p strong {
+  font-size: 1.25em;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1024px) {
+  .txtInfo h2 {
+    padding-top: 1em;
+  }
+
+  header a {
+    font-size: 1.15em;
+  }
+
+  .txtAboutMe p {
+    font-size: 1.15em;
+  }
+
+  .txtAboutMe strong {
+    font-size: 1.25em;
+  }
+
+  .imgOfMe {
+    height: auto;
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h1 {
+    margin: 1em 0;
+  }
+
+  section.mainSec {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgOfMe {
+    order: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .txtInfo {
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .txtInfo h2 {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .txtAboutMe {
+    text-align: center;
+  }
+}
