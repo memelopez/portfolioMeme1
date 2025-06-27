@@ -41,6 +41,11 @@ header a {
   font-size: 1.25em;
 }
 
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* main sec */
 
 section.mainSec {
@@ -57,15 +62,13 @@ section.mainSec {
 
 .imgOfMe {
   padding: 1em 0.5em;
-  width: 34%;
+  width: 40%;
   height: 550px;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
 
-.imgOfMe img {
-  width: 100%;
-  height: 100%;
-}
 
 .txtAboutMe {
   padding: 1em 1.5em 1em 0;
@@ -170,4 +173,67 @@ footer p {
 
 footer p strong {
   font-size: 1.25em;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 1024px) {
+  .txtInfo h2 {
+    padding-top: 1em;
+  }
+
+  header a {
+    font-size: 1.15em;
+  }
+
+  .txtAboutMe p {
+    font-size: 1.15em;
+  }
+
+  .txtAboutMe strong {
+    font-size: 1.25em;
+  }
+
+  .imgOfMe {
+    height: auto;
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header h1 {
+    margin-bottom: 1em;
+  }
+
+  section.mainSec {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgOfMe {
+    order: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .txtInfo {
+    order: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .txtInfo h2 {
+    margin: 0 auto;
+  }
 }
