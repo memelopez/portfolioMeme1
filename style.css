@@ -208,7 +208,7 @@ footer p strong {
   }
 
   header h1 {
-    margin-bottom: 1em;
+    margin: 1em 0;
   }
 
   section.mainSec {
@@ -235,5 +235,10 @@ footer p strong {
 
   .txtInfo h2 {
     margin: 0 auto;
+    text-align: center;
+  }
+
+  .txtAboutMe {
+    text-align: center;
   }
 }
